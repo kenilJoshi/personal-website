@@ -1,7 +1,7 @@
 import React from 'react'
-import { bio } from '../data/constant'
+import { bio } from '../../data/constant'
 import TypeWritter from 'typewriter-effect'
-import heroImage from '../../public/ken.jpg'
+import heroImage from '../../../public/ken.jpg'
 
 function About() {
 

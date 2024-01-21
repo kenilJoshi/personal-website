@@ -1,5 +1,5 @@
 import React from 'react'
-import { skills } from '../data/constant'
+import { skills } from '../../data/constant'
 
 function Skills() {
 
@@ -58,11 +58,11 @@ function Skills() {
           <h2 className='text-xl text-slate-400 pt-3 text-center'>Here are some of my skills on which I have been working on for the past 1 years.</h2>
           <div style={skillContainer} className='px-40 max-[600px]:px-8'>
             {skills.map((skill) => (
-              <div style={Skill}>
+              <div key={skill.title} style={Skill}>
                 <h1 style={skillTitle} className='text-white'>{skill.title}</h1>
                 <div style={skillList}>
                   {skill.skills.map((item)=>(
-                    <div style={skillItem}>
+                    <div key={item.name} style={skillItem}>
                       <img src={item.image} style={skillImage} />
                       <span className='text-slate-400'>{item.name}</span>
                     </div>

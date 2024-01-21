@@ -105,7 +105,7 @@ function ExperienceCard({experience}) {
                             <b>Skills:</b>
                             <div style={itemWrapper}>
                                 {experience?.skills?.map((skill, index) => (
-                                    <div style={Skill}>• {skill}</div>
+                                    <div key={skill} style={Skill}>• {skill}</div>
                                 ))}
                             </div>
                         </div>

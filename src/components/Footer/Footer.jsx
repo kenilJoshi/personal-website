@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { bio } from '../data/constant';
+import { bio } from '../../data/constant';
 import { Link } from 'react-scroll'
 
 function Footer() {

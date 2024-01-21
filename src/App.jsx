@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Wave from 'react-wavify'
-import Navbar from './components/Navbar'
-import About from './components/About'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
-import Education from './components/Education'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar/Navbar'
+import About from './components/About/About'
+import Skills from './components/Skills/Skills'
+import Experience from './components/Experience/Experience'
+import Education from './components/Education/Education'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router } from 'react-router-dom';
+import Projects from './components/Projects/Projects'
+import ProjectDetails from './components/ProjectDetails/ProjectDetails'
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
 
-};
+  };
+
+  const [openModal, setOpenModal] = useState({state: false, project: null})
 
   return (
     <div style={myStyle}>
@@ -45,6 +49,7 @@ function App() {
         <div className='bg-504099'>
           <Skills />
           <Experience />
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Education />
           <Contact />
           <Wave fill='#313866'
@@ -59,6 +64,10 @@ function App() {
           />
           <Footer />
         </div>
+        {
+          openModal.state && 
+          <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+        }
       </Router>
     </div>
   )

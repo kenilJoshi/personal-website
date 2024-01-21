@@ -113,6 +113,30 @@ export const skills = [
     },
   ];
 
+  export const projects = [
+    {
+      id: 1,
+      title: "Ecomm",
+      date: "Jan 2024 - Jan 2024",
+      description:
+        "Welcome to our cutting-edge E-commerce platform, seamlessly blending the power of Node.js and PostgreSQL for a robust backend, and React for an intuitive frontend. Explore a user-friendly interface where customers can effortlessly browse, order custom-designed T-shirts, and curate their wishlist for future purchases. Our advanced search functionality ensures a hassle-free shopping experience, allowing users to quickly find their desired products. Dive into personalized account features, enabling users to track their order history and effortlessly manage their preferences. With real-time updates, users can stay informed about the status of their orders. Meanwhile, administrators enjoy a streamlined process to update order statuses, ensuring efficient management of the entire fulfillment process. Elevate your online shopping journey with our innovative, secure, and responsive E-commerce website, where technology meets seamless user experience.",
+      image:
+        "https://res.cloudinary.com/dugadzwcv/image/upload/v1705822985/Screenshot_from_2024-01-21_13-06-42_kwu8e4.png",
+      tags: [
+        "Eslint",
+        "Vercel",
+        "React Js",
+        "PostgresSql",
+        "Node Js",
+        "Express Js",
+        "Cloudinary",
+        "Prisma"
+      ],
+      category: "web app",
+      github: "https://github.com/kenilJoshi/ecomm-frontend",
+      webapp: "https://main--celadon-malabi-9ffa6f.netlify.app/",
+    },]
+
   export const experiences = [
     {
       id: 0,

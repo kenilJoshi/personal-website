@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { bio } from '../data/constant'
+import { bio } from '../../data/constant'
 import { Link } from 'react-scroll'
 
 function Navbar() {
