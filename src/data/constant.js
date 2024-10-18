@@ -159,8 +159,27 @@ export const skills = [
   ]
 
   export const experiences = [
+
     {
       id: 0,
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702491114/download_1_ogha7r.png",
+      role: "Full Stack Developer",
+      company: "Terado Engineering",
+      date: "March 2024 - Sept 2024",
+      desc: "Worked as an Full Stack Developer and On LMS Website",
+      skills: [
+        "NodeJs",
+        "MySQL",
+        "MongoDb",
+        "NextJs",
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+    },
+    {
+      id: 1,
       img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702490820/download_tla8mm.png",
       role: "Angular FrontEnd Developer",
       company: "IIDE",
@@ -176,7 +195,7 @@ export const skills = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702491114/download_1_ogha7r.png",
       role: "Backend Developer",
       company: "ATG",
@@ -189,7 +208,7 @@ export const skills = [
         "CSS",
         "JavaScript",
       ],
-    }
+    },
   ];
 
 
