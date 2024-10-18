@@ -135,7 +135,28 @@ export const skills = [
       category: "web app",
       github: "https://github.com/kenilJoshi/ecomm-frontend",
       webapp: "https://main--celadon-malabi-9ffa6f.netlify.app/",
-    },]
+    },
+    {
+      id: 1,
+      title: "Url Shortner",
+      date: "Jan 2024 - Jan 2024",
+      description:
+        "Easily shorten your long URLs for sharing. Just enter your long URL below, and we’ll create a short, manageable link for you. Perfect for social media, emails, and more!",
+      image:
+        "https://res.cloudinary.com/dugadzwcv/image/upload/v1729270596/Screenshot_from_2024-10-18_22-26-08_d1iyzr.png",
+      tags: [
+        "Eslint",
+        "Vercel",
+        "NextJS",
+        "Mongodb",
+        "Mongoose",
+        "TypeScript"
+      ],
+      category: "web app",
+      github: "https://github.com/kenilJoshi/urlShortner",
+      webapp: "https://url-shortner-smoky.vercel.app/",
+    }
+  ]
 
   export const experiences = [
     {
