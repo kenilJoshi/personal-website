@@ -177,8 +177,8 @@ export const skills = [
         "TypeScript"
       ],
       category: "web app",
-      github: "https://github.com/kenilJoshi/urlShortner",
-      webapp: "https://url-shortner-smoky.vercel.app/",
+      github: "https://github.com/kenilJoshi/Whiteboard-frontend",
+      webapp: "https://whiteboard-frontend-sigma.vercel.app/",
     }
   ]
 
