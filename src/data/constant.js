@@ -163,7 +163,7 @@ export const skills = [
       description:
         "This is an Realtime Whiteboard where you can coloborate with people and Draw togeather. You can Also Save the Whiteboard and User can create Signup and Signin and draw whatever they want",
       image:
-        "https://res.cloudinary.com/dugadzwcv/image/upload/v1729270596/Screenshot_from_2024-10-18_22-26-08_d1iyzr.png",
+        "https://res.cloudinary.com/dugadzwcv/image/upload/v1732205889/Screenshot_from_2024-11-21_20-50-55_amp9ar.png",
       tags: [
         "Eslint",
         "Vercel",
