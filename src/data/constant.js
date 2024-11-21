@@ -155,6 +155,30 @@ export const skills = [
       category: "web app",
       github: "https://github.com/kenilJoshi/urlShortner",
       webapp: "https://url-shortner-smoky.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "RealTime WhiteBoard",
+      date: "Jan 2024 - Jan 2024",
+      description:
+        "This is an Realtime Whiteboard where you can coloborate with people and Draw togeather. You can Also Save the Whiteboard and User can create Signup and Signin and draw whatever they want",
+      image:
+        "https://res.cloudinary.com/dugadzwcv/image/upload/v1729270596/Screenshot_from_2024-10-18_22-26-08_d1iyzr.png",
+      tags: [
+        "Eslint",
+        "Vercel",
+        "NextJS",
+        "Postgresql",
+        "NodeJS",
+        "Express",
+        "WebSocket",
+        "RealTime",
+        "Prisma",
+        "TypeScript"
+      ],
+      category: "web app",
+      github: "https://github.com/kenilJoshi/urlShortner",
+      webapp: "https://url-shortner-smoky.vercel.app/",
     }
   ]
 
