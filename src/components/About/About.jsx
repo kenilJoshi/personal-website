@@ -49,7 +49,7 @@ function About() {
             </h1>
 
             <h2 className='text-xl text-slate-400 pt-3'>{bio.description}</h2>
-            <a href='https://drive.google.com/file/d/1b631f3UVwDv1sDiiPoVd8IBykpIwdZ_T/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1gRDAo-TWFDA8UCo3MjZ3QyW-kPJQpr8S/view?usp=sharing'>
                 <button style={buttonStyle}>Check Resume</button>
             </a>
         </div>

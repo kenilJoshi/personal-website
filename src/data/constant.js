@@ -9,7 +9,7 @@ export const bio = {
     linkedin: "https://www.linkedin.com/in/kenil-joshi-2536741ab/",
     twitter: "https://twitter.com/home?lang=en",
     github: "https://github.com/kenilJoshi",
-    resume: "https://drive.google.com/file/d/13IIJFsr5K-Iv_SX70ysgfv3XrugUqMFA/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1gRDAo-TWFDA8UCo3MjZ3QyW-kPJQpr8S/view?usp=sharing"
 }
 
 
