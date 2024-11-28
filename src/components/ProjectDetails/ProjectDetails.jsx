@@ -107,7 +107,12 @@ position: "relative"
                     <div style={Desc} className='text-slate-400'>{project?.description}</div>
                     <div style={ButtonGroup}>
                         <button className='border-2 border-FE7BE5 w-40 p-2 rounded-md text-FE7BE5 transition ease-in-out delay-150 hover:bg-FE7BE5 hover:text-white' dull target='new'><a href={project?.github}>View Code</a></button>
-                        <button className='border-2 border-FE7BE5 w-40 p-2 rounded-md text-FE7BE5 transition ease-in-out delay-150 hover:bg-FE7BE5 hover:text-white' target='new'><a href={project?.webapp}>View Live App</a></button>
+                        {
+                            project?.webapp !== false ? 
+                            <button className='border-2 border-FE7BE5 w-40 p-2 rounded-md text-FE7BE5 transition ease-in-out delay-150 hover:bg-FE7BE5 hover:text-white' target='new'><a href={project?.webapp}>View Live App</a></button> :
+                            ""
+                        }
+                        
                     </div>
                 </div>
             </div>

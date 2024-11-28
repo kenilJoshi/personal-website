@@ -178,7 +178,7 @@ export const skills = [
       ],
       category: "web app",
       github: "https://github.com/kenilJoshi/Whiteboard-frontend",
-      webapp: "https://whiteboard-frontend-sigma.vercel.app/",
+      webapp: false,
     }
   ]
 
