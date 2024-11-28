@@ -53,7 +53,7 @@ export const skills = [
       skills: [
         {
           name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
+          image: "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781504/nodejs-logo-FBE122E377-seeklogo.com_qhqntq.png",
         },
         {
           name: "Express Js",
@@ -63,12 +63,12 @@ export const skills = [
         {
           name: "MySQL",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781605/png-transparent-mysql-logo-mysql-database-web-development-computer-software-dolphin-marine-mammal-animals-text-thumbnail_1_ykkoz8.png",
         },
         {
           name: "MongoDB",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+            "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781664/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail_xsbcp1.png",
         },
         {
           name: "Firebase",
@@ -82,7 +82,7 @@ export const skills = [
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781444/Git-Icon-1788C_tg8jal.png",
         },
         {
           name: "GitHub",
@@ -102,12 +102,12 @@ export const skills = [
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781269/png-transparent-postman-macos-bigsur-icon-thumbnail_djhrkv.png",
         },
         {
           name: "Figma",
           image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+            "https://res.cloudinary.com/dugadzwcv/image/upload/v1732781369/Figma-logo.svg_xjtw1a.png",
         },
       ],
     },
@@ -186,7 +186,7 @@ export const skills = [
 
     {
       id: 0,
-      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702491114/download_1_ogha7r.png",
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1732779798/images12_eh0xkf.jpg",
       role: "Full Stack Developer",
       company: "Terado Engineering",
       date: "March 2024 - Sept 2024",
@@ -204,7 +204,7 @@ export const skills = [
     },
     {
       id: 1,
-      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702490820/download_tla8mm.png",
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702490808/download_izw8rl.png",
       role: "Angular FrontEnd Developer",
       company: "IIDE",
       date: "Jan 2023 - July 2023",
@@ -220,7 +220,7 @@ export const skills = [
     },
     {
       id: 2,
-      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702491114/download_1_ogha7r.png",
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1732779694/download_1_vu5ypz.png",
       role: "Backend Developer",
       company: "ATG",
       date: "Jan 2022 - Jun 2022",
@@ -239,7 +239,7 @@ export const skills = [
   export const education = [
     {
       id: 0,
-      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702500423/download_1_iku5ts.jpg",
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1732779672/download_1_dfgliw.jpg",
       school: "Universal college of Engineering",
       date: "Oct 2019 - July 2023",
       grade: "7.45 CGPA",
@@ -248,7 +248,7 @@ export const skills = [
     },
     {
       id: 1,
-      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1702500732/logo_i73y9f.jpg",
+      img: "https://res.cloudinary.com/dugadzwcv/image/upload/v1732779682/logo_zrgnya.jpg",
       school: "John XXIII High School",
       date: "June 2017",
       grade: "80%",
