@@ -97,9 +97,9 @@ function Footer() {
                 duration={500}  style={navLink} className='text-white' >Contact</Link>
             </div>
             <div style={socialMediaIcons}>
-                <div style={socialMediaIcon} target = "display" href={bio.linkedin}><LinkedInIcon /></div>
-                <div style={socialMediaIcon} target = "display" href={bio.github}><GitHubIcon /></div>
-                <div style={socialMediaIcon} target = "display" href={bio.twitter}><TwitterIcon /></div>
+                <div style={socialMediaIcon} target = "display"><a href={bio.linkedin}><LinkedInIcon /></a></div>
+                <div style={socialMediaIcon} target = "display"><a href={bio.github}><GitHubIcon /></a></div>
+                <div style={socialMediaIcon} target = "display"><a href={bio.twitter}><TwitterIcon /></a></div>
             </div>
         </div>
 
