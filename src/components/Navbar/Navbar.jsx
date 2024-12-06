@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { bio } from '../../data/constant';
-import { Link } from 'react-scroll';
+import router from 'react-scroll';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   const textStyle =
@@ -28,7 +29,7 @@ function Navbar() {
         >
           <h1 className="text-3xl font-bold">Portfolio</h1>
           <div className="flex gap-6">
-            <Link
+            <router.Link
               to="about"
               spy={true}
               smooth={true}
@@ -37,8 +38,8 @@ function Navbar() {
               className={textStyle}
             >
               About
-            </Link>
-            <Link
+            </router.Link>
+            <router.Link
               to="skills"
               spy={true}
               smooth={true}
@@ -47,8 +48,8 @@ function Navbar() {
               className={textStyle}
             >
               Skills
-            </Link>
-            <Link
+            </router.Link>
+            <router.Link
               to="experience"
               spy={true}
               smooth={true}
@@ -57,8 +58,8 @@ function Navbar() {
               className={textStyle}
             >
               Experience
-            </Link>
-            <Link
+            </router.Link>
+            <router.Link
               to="education"
               spy={true}
               smooth={true}
@@ -67,8 +68,11 @@ function Navbar() {
               className={textStyle}
             >
               Education
+            </router.Link>
+            <Link to="/blog" className={textStyle}>
+            Blog
             </Link>
-            <Link
+            <router.Link
               to="contact"
               spy={true}
               smooth={true}
@@ -77,7 +81,7 @@ function Navbar() {
               className={textStyle}
             >
               Contact
-            </Link>
+            </router.Link>
           </div>
 
           <div>
